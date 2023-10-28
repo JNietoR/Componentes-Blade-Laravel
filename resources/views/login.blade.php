@@ -11,7 +11,6 @@
         <div>
             <x-label>Email</x-label>
             <x-input type="text" name="email"/>
-            <input  class="rounded shadow border border-gray-300 p-2 mt-1 w-full outline-none">
         </div>
         <div class="mt-4">
             <x-label>Contraseña</x-label>

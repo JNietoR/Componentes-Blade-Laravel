@@ -5,6 +5,9 @@
     <x-nav.link href="#">Cursos</x-nav.link>
     <x-nav.link href="#">Planes</x-nav.link>
     <x-nav.link href="#">Documentos</x-nav.link>
+
+    <x-nav.link href="/login" class="rounded-full px-3 py-1 bg-gray-900 text-white hover:text-white">Login</x-nav.link>
+    <x-nav.link href="/register" class="rounded-full px-3 py-2 border-2 border-gray-900 text-gray-900">Registro</x-nav.link>
 </x-nav>
 
 <div class="container mx-auto px-4">
