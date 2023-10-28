@@ -18,7 +18,7 @@
             <x-input type="password" name="password"/>
         </div>
         <div class="flex items-center gap-4 justify-end mt-8">
-            <a href="/register" class="underline text-sm text-gray-600 hover:text-gray-900">Registrarse</a>
+            <x-link href="/register">Registrarse</x-link>
             <button type="submit" class="px-4 py-2 bg-blue-800 rounded text-xs text-white uppercase hover:bg-blue-700">Iniciar sesión</button>
         </div>
     </form>
