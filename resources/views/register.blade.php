@@ -22,7 +22,7 @@
         </div>
         <div class="flex items-center gap-4 justify-end mt-8">
             <x-link href="/login">Estoy registrado</x-link>
-            <button type="submit" class="px-4 py-2 bg-blue-800 rounded text-xs text-white uppercase hover:bg-blue-700">Registrarse</button>
+            <x-button>Registrarse</x-button>
         </div>
     </form>
 </x-wrapper>
