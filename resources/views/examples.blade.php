@@ -20,5 +20,34 @@
     <x-flash type="error">Mensaje de ERROR</x-flash>
     <x-flash type="info">Mensaje de INFORMACIÓN</x-flash>
     <x-flash type="warning">Mensaje de ADVERTENCIA</x-flash>
+
+    <hr class="my-4">
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+        <x-card 
+            img="https://images.unsplash.com/photo-1551434678-e076c223a692"
+            date="Octubre, 2023"
+            title="Lorem ipsum dolor sit amet, consectetur"
+            content="Lorem ipsum dolor sit amet, consectetur... Lorem ipsum dolor sit amet, consectetur... Lorem ipsum dolor sit amet, consectetur"
+        ></x-card>
+        <x-card 
+            img="https://images.unsplash.com/photo-1522071820081-009f0129c71c"
+            date="Octubre, 2023"
+            title="Lorem ipsum dolor sit amet, consectetur"
+            content="Lorem ipsum dolor sit amet, consectetur... Lorem ipsum dolor sit amet, consectetur... Lorem ipsum dolor sit amet, consectetur"
+        ></x-card>
+        <x-card 
+            img="https://images.unsplash.com/photo-1623479322729-28b25c16b011"
+            date="Octubre, 2023"
+            title="Lorem ipsum dolor sit amet, consectetur"
+            content="Lorem ipsum dolor sit amet, consectetur... Lorem ipsum dolor sit amet, consectetur... Lorem ipsum dolor sit amet, consectetur"
+        ></x-card>
+        <x-card 
+            img="https://images.unsplash.com/photo-1528901166007-3784c7dd3653"
+            date="Octubre, 2023"
+            title="Lorem ipsum dolor sit amet, consectetur"
+            content="Lorem ipsum dolor sit amet, consectetur... Lorem ipsum dolor sit amet, consectetur... Lorem ipsum dolor sit amet, consectetur"
+        ></x-card>
+    </div>
 </div>
 @endsection
