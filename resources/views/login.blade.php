@@ -9,11 +9,11 @@
     </x-slot>
     <form action="">
         <div>
-            <label class="text-sm text-gray-700">Email</label>
+            <x-label>Email</x-label>
             <input type="text" name="email" class="rounded shadow border border-gray-300 p-2 mt-1 w-full outline-none">
         </div>
         <div class="mt-4">
-            <label class="text-sm text-gray-700">Contraseña</label>
+            <x-label>Contraseña</x-label>
             <input type="password" name="password" class="rounded shadow border border-gray-300 p-2 mt-1 w-full outline-none">
         </div>
         <div class="flex items-center gap-4 justify-end mt-8">
